@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="h-[100%] w-[100%]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deku-tofo</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-[url('\\images\\17.jpg')] bg-cover bg-center h-[100%] w-[100%]">
+    
+    <div class="big flex flex-row p-[60px]">
+        <div class="left h-[80vh] w-[30%] m-[20px] bg-pink-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 border border-gray-100 p-[10px]" >
+            <div class="container1 flex flex-row justify-center items-baseline">
+                <div class="hours text-9xl" id="hours">11</div>
+                <div class="mid text-9xl">:</div>
+                <div class="minutes text-9xl" id="minutes">11</div>
+                <span class="am-pm text-5xl" id="am-pm">AM</span>
+            </div>
+
+            <div class="container2 pt-[90px] ml-[20px]">
+                <h1 class="to-do text-4xl">TO-DO</h1>
+                <div class="label pt-[20px]"> 
+                    <input type="text" id="task-input" class="search-input h-[7vh] w-[45vh] bg-pink-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 border border-gray-100" placeholder="Enter the task" autofocus autocomplete="off">
+                    <!-- <button id="add-task" class="ml-[10px] bg-blue-500 text-white px-[10px] py-[5px] rounded-md">Add</button> -->
+                </div>
+                <ul id="task-list" class="pt-[20px] ml-[20px] list-disc">
+                </ul>
+            </div>
+        </div>    
+
+        <div class="right h-[80vh] w-[64%] m-[20px] flex flex-col justify-around bg-pink-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 border border-gray-100">
+            <div class="up flex flex-row justify-between items-center mt-[30px] mx-[40px] ">
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/Twitter.png" alt=""></a>
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/Chatgpt.png" alt=""></a>
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/Discord.png" alt=""></a>
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/LinkedIn.png" alt=""></a>
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/Reddit.png" alt=""></a>
+            </div>
+            <div class="middle flex flex-row justify-between items-center mb-[30px] mx-[40px] ">
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/Drive.png" alt=""></a>
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/Gmail.png" alt=""></a>
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/Instagram.png" alt=""></a>
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/Spotify.png" alt=""></a>
+                <a href="https://twitter.com/home"><img class="h-[90px] w-[90px]" src="images/Youtube.png" alt=""></a>
+            </div>
+
+            <div class="search flex flex-row justify-center ">
+                <div class="bottom flex justify-around items-stretch ">
+                    <div class="form-element p-[12px] bg-pink-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 border border-gray-100">
+                        <input class="mr-[160px] bg-transparent border-none" type="text" id="title" placeholder="Search on Me">
+                        <button class="icon pl-[250px]"><img class="h-[20px] w-[20px]" src="images/search-26242.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
